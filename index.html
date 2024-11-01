@@ -10,6 +10,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="dsf.css">
+        <link rel="stylesheet" href="dsa.css">
+        <!-- <link rel="stylesheet" href="serach.css"> -->
+        <!-- <script src=".js"></script> -->
+
 
     </head>
 
@@ -22,12 +26,29 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#Testimonial">Testimonials</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./contact.html">Contact</a>
+                
+                </li>
                 <li>
                     <ion-icon name="cart"></ion-icon>
                 </li>
                 <li>
                     <ion-icon name="search"></ion-icon>
+<!-- 
+  <div class="search-bar-container">
+    <input 
+      type="text" 
+      id="searchInput" 
+      placeholder="Search for products, brands, or categories..."
+      onkeyup="showSuggestions()">
+    <button class="search-btn" onclick="performSearch()">
+      <ion-icon name="search-outline"></ion-icon>
+    </button>
+    <div id="suggestions" class="suggestions-list"></div>
+  </div> -->
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
                 </li>
             </ul>
         </div>
@@ -78,6 +99,7 @@
                 <a href="#products" class="btn arrival_btn">Shop Now</a>
             </div>
         </section>
+        
 
 
         <section class="our_products" id="products">
@@ -257,11 +279,20 @@
 
 
         <section class="testimonials" id="Testimonial">
-            <h3 class="test_heading head_text">Customer's Testimonial</h3>
+            <h3 class="test_heading head_text">Customer's Review</h3>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="../img/c1.png" width="140px">
+                        <img src="images/download (1).jfif" width="140px">
+                        <p class="text">"Absolutely Love It! - I ordered a traditional kurti, and it exceeded my expectations. The quality and fabric are perfect for Pakistani weather, and the design is simply beautiful. I can’t wait to order more!".
+                        </p>
+                        <div class="details">
+                            <p class="name">Maya Ali</p>
+                            <p class="job">Model/Actress</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/image2.jfif" width="140px">
                         <p class="text">Have bought several things now, pants, tops & dresses, love them all & can’t
                             wait to receive my new order. Always speedy delivery even over holidays. Totally recommend.
                         </p>
@@ -271,17 +302,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="../img/c2.png" width="140px">
-                        <p class="text">Have bought several things now, pants, tops & dresses, love them all & can’t
-                            wait to receive my new order. Always speedy delivery even over holidays. Totally recommend.
-                        </p>
-                        <div class="details">
-                            <p class="name">Nitin Jangir</p>
-                            <p class="job">Web Developer</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../img/c3.png" width="140px">
+                        <img src="images/images.jfif" width="140px">
                         <p class="text">Have bought several things now, pants, tops & dresses, love them all & can’t
                             wait to receive my new order. Always speedy delivery even over holidays. Totally recommend.
                         </p>
@@ -292,20 +313,17 @@
                     </div>
                     <div class="swiper-slide">
                         <img src="images/download (6).jfif" width="140px">
-                        <p class="text">Have bought several things now, pants, tops & dresses, love them all & can’t
-                            wait to receive my new order. Always speedy delivery even over holidays. Totally recommend.
+                        <p class="text">"Top-Notch Service - From ordering to delivery, everything was so smooth! I got my outfit on time for my cousin’s wedding, and I felt truly stylish. Great quality at affordable prices. Highly recommend!".
                         </p>
                         <div class="details">
-                            <p class="name">Nitin Jangir</p>
-                            <p class="job">Web Developer</p>
+                            <p class="name">Maya Ali</p>
+                            <p class="job">Model/Actress</p>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
         </section>
-
-
         <!-- -------- Footer Section -------- -->
         <section class="footer">
             <div class="footer_container">
@@ -316,7 +334,7 @@
                     <p><span>EMAIL : </span>hexa@gmail.com</p>
                 </div>
                 <div class="col col_2">
-                    <h4 class="heading">MENU</h4>
+                    <!-- <h4 class="heading">MENU</h4>
                     <P>Home</P>
                     <P>About</P>
                     <P>Services</P>
@@ -331,7 +349,7 @@
                     <P>Login</P>
                     <P>Register</P>
                     <P>Shopping</P>
-                    <P>Widget</P>
+                    <P>Widget</P> -->
                 </div>
             </div>
             <div class="footer_tagline">
